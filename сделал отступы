@@ -45,15 +45,15 @@
           />
         </label>
     </div>
-    <div style="margin-bottom: 15px;">
-        Пол: <div style="margin-bottom: 10px;">
-        <div >
+    <div style="margin-bottom: 10px;">
+        Пол: </div>
+        <div style="margin-bottom: 10px;">
           <input id="gender-1" type="radio" name="gender"/>
           <label for="gender-1">Мальчик</label>
             <input id="gender-2" type="radio" name="gender"/>
             <label for="gender-2">Девочка</label>
           </div>
-    </div>
+    
     <div style="margin-bottom: 10px;">
         <label for="birth-date">Дени Рождения:</label>
         <input type="date" id="birth-date" name="birthDate" />
@@ -67,15 +67,15 @@
       </div>
       <div style="margin-bottom: 10px;">
         <label>
-            Выберите цвет своей новой игрушки:
+            Выберите цвет своей новой игрушки:</label>
+      </div >
         <div><input type="color" name="color1" value="#ff69b4" />
             <label for="present">Шапочка</label>
         </div>
-        <div><input type="color" name="color2" value="#ffff00" />
+        <div style="margin-bottom: 10px;"><input type="color" name="color2" value="#ffff00" />
             <label for="present">Костюм</label>
         </div>
-        </label>
-      </div >
+        
       <div style="margin-bottom: 10px;">
         Ты был хорошим ребенком?
         <div>
