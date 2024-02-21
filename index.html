@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action=""></form>
+    <div>
+      <h1>Письмо Санте</h1>
+    </div>
+    <div>
+      <h4>
+        Дорогой друг, не стесняйтся и расскажи Санте о том, кто ты и о том, что
+        ты хочешь получить на Рождество.
+      </h4>
+    </div>
+    <div>
+        <input
+            required
+            type="login"
+            name="login"
+            placeholder="Логин"
+          />
+        </label>
+    </div>
+    <div>
+        <label>
+            <input
+              required
+              type="password"
+              name="password"
+              placeholder="Пароль"
+            />
+          </label>
+    </div>
+    <div>
+        <input
+            required
+            type="name"
+            name="name"
+            placeholder="Имя"
+          />
+        </label>
+    </div>
+    <div>
+        Пол:
+        <div>
+          <input id="gender-1" type="radio" name="gender"/>
+          <label for="gender-1">Мальчик</label>
+        </div>
+        <div>
+            <input id="gender-2" type="radio" name="gender"/>
+            <label for="gender-2">Девочка</label>
+          </div>
+    </div>
+    <div>
+        <label for="birth-date">Дени Рождения:</label>
+        <input type="date" id="birth-date" name="birthDate" />
+      </div>
+      <div>
+          <select name="city" form="city">
+            <option value="Sankt_Peterburg">Санкт-Петербург</option>
+            <option value="Moskow">Москва</option>
+            <option selected value="Piter">Питер</option>
+          </select>
+      </div>
+      <div>
+        <label>
+            Выберите цвет своей новой игрушки:
+        <div><input type="color" name="color1" value="#ff69b4" />
+            <label for="present">Шапочка</label>
+        </div>
+        <div><input type="color" name="color2" value="#ffff00" />
+            <label for="present">Костюм</label>
+        </div>
+        </label>
+      </div>
+      <div>
+        Ты был хорошим ребенком?
+        <div>
+            <input id="answer-1" type="radio" name="answer"/>
+          <label for="Yes">Да</label>
+          
+        </div>
+        <div>
+            <input id="answer-2" type="radio" name="answer"/>
+          <label for="No">Нет</label>
+        </div>
+      </div>
+      <div>
+        <button type="submit">Отправить письмо Санте</button>
+      </div>
+  </body>
+</html>
