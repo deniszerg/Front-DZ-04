@@ -7,7 +7,7 @@
     <title>Document</title>
   </head>
   <body>
-    <form action=""></form>
+    <form action="main.html">
     <div>
       <h1>Письмо Санте</h1>
     </div>
@@ -17,7 +17,7 @@
         ты хочешь получить на Рождество.
       </h4>
     </div>
-    <div>
+    <div style="margin-bottom: 10px;">
         <input
             required
             type="login"
@@ -26,7 +26,7 @@
           />
         </label>
     </div>
-    <div>
+    <div style="margin-bottom: 10px;">
         <label>
             <input
               required
@@ -36,7 +36,7 @@
             />
           </label>
     </div>
-    <div>
+    <div style="margin-bottom: 10px;">
         <input
             required
             type="name"
@@ -45,53 +45,48 @@
           />
         </label>
     </div>
-    <div>
-        Пол:
-        <div>
+    <div style="margin-bottom: 10px;">
+        Пол: </div>
+        <div style="margin-bottom: 10px;">
           <input id="gender-1" type="radio" name="gender"/>
           <label for="gender-1">Мальчик</label>
-        </div>
-        <div>
             <input id="gender-2" type="radio" name="gender"/>
             <label for="gender-2">Девочка</label>
           </div>
-    </div>
-    <div>
+    
+    <div style="margin-bottom: 10px;">
         <label for="birth-date">Дени Рождения:</label>
         <input type="date" id="birth-date" name="birthDate" />
       </div>
-      <div>
+      <div style="margin-bottom: 10px;"> 
           <select name="city" form="city">
             <option value="Sankt_Peterburg">Санкт-Петербург</option>
             <option value="Moskow">Москва</option>
             <option selected value="Piter">Питер</option>
           </select>
       </div>
-      <div>
+      <div style="margin-bottom: 10px;">
         <label>
-            Выберите цвет своей новой игрушки:
+            Выберите цвет своей новой игрушки:</label>
+      </div >
         <div><input type="color" name="color1" value="#ff69b4" />
             <label for="present">Шапочка</label>
         </div>
-        <div><input type="color" name="color2" value="#ffff00" />
+        <div style="margin-bottom: 10px;"><input type="color" name="color2" value="#ffff00" />
             <label for="present">Костюм</label>
         </div>
-        </label>
-      </div>
-      <div>
+        
+      <div style="margin-bottom: 10px;">
         Ты был хорошим ребенком?
         <div>
             <input id="answer-1" type="radio" name="answer"/>
           <label for="Yes">Да</label>
-          
-        </div>
-        <div>
             <input id="answer-2" type="radio" name="answer"/>
           <label for="No">Нет</label>
         </div>
       </div>
-      <div>
         <button type="submit">Отправить письмо Санте</button>
-      </div>
-  </body>
+        <button type="reset">очистка</button>
+  </form>
+</body>
 </html>
